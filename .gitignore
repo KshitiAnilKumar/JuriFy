@@ -1,0 +1,29 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Environment and credentials
+.env
+.secrets/
+*.toml
+credentials.json
+chat_history/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Streamlit & logs
+.streamlit/config.toml
+*.log
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Jupyter & IPython
+.ipynb_checkpoints/
+*.ipynb
