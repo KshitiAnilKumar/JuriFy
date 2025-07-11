@@ -13,9 +13,6 @@ import mysql.connector
 from deep_translator import GoogleTranslator
 from datetime import datetime
 import hashlib
-from dotenv import load_dotenv
-
-load_dotenv()
 
 st.set_page_config(page_title="JuriFy", layout="wide")  
     
@@ -47,7 +44,7 @@ def load_chat_history(username, pdf_filename):
             return json.load(file)
     return []
 
-GENAI_API_KEY = os.getenv("GENAI_API_KEY")
+GENAI_API_KEY = st.secrets["GENAI_API_KEY"]
 
 if not GENAI_API_KEY:
     st.error("GENAI_API_KEY is missing. Please check your .env file.")
@@ -58,10 +55,10 @@ genai.configure(api_key=GENAI_API_KEY.strip())
 
 # ✅ MySQL config from .env
 MYSQL_CONFIG = {
-    'user': os.getenv("MYSQL_USER"),
-    'password': os.getenv("MYSQL_PASSWORD"),
-    'host': 'localhost',  # or os.getenv("MYSQL_HOST") if dynamic
-    'database': 'legal_chatbot'  # or os.getenv("MYSQL_DB")
+    'user': st.secrets["MYSQL_USER"],
+    'password': st.secrets["MYSQL_PASSWORD"],
+    'host': st.secrets["MYSQL_HOST"],
+    'database': st.secrets["MYSQL_DATABASE"]
 }
 
 def get_db_connection():
