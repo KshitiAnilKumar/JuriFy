@@ -1,0 +1,10 @@
+streamlit
+google-generativeai
+PyMuPDF
+speechrecognition
+sounddevice
+numpy
+wave
+mysql-connector-python
+deep-translator
+python-dotenv
