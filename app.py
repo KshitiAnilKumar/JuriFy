@@ -1,10 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
 import fitz  # PyMuPDF
-import speech_recognition as sr
-import sounddevice as sd
-import numpy as np
-import wave
 import tempfile
 import os
 import base64
@@ -191,41 +187,6 @@ def chat_with_ai(user_query, context=""):
 
     response = model.generate_content(prompt)
     return response.text
-
-# Audio recording
-def record_audio_to_file():
-    temp_audio_path = tempfile.NamedTemporaryFile(delete=False, suffix=".wav").name
-    fs = 44100
-    duration = 10
-    st.info("🎙 Recording for 10 seconds... Speak now!")
-    audio_data = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype=np.int16)
-    sd.wait()
-    with wave.open(temp_audio_path, 'wb') as wf:
-        wf.setnchannels(1)
-        wf.setsampwidth(2)
-        wf.setframerate(fs)
-        wf.writeframes(audio_data.tobytes())
-    st.success("✅ Recording completed!")
-    return temp_audio_path
-
-lang_code_map = {
-    "English": "en-US", "Hindi": "hi-IN", "Bengali": "bn-IN", "Telugu": "te-IN", "Marathi": "mr-IN",
-    "Tamil": "ta-IN", "Urdu": "ur-IN", "Gujarati": "gu-IN", "Malayalam": "ml-IN",
-    "Kannada": "kn-IN", "Odia": "or-IN", "Punjabi": "pa-IN", "Assamese": "as-IN",
-    "Maithili": "hi-IN", "Santali": "hi-IN", "Kashmiri": "hi-IN", "Konkani": "hi-IN",
-    "Sindhi": "hi-IN", "Nepali": "ne-NP", "Manipuri": "hi-IN", "Bodo": "hi-IN",
-    "Dogri": "hi-IN", "Sanskrit": "hi-IN", "Tulu": "hi-IN"
-}
-
-def recognize_and_translate(audio_path, target_language):
-    recognizer = sr.Recognizer()
-    with sr.AudioFile(audio_path) as source:
-        audio = recognizer.record(source)
-    try:
-        text = recognizer.recognize_google(audio, language=lang_code_map.get(target_language, "en-US"))
-        return text
-    except:
-        return "Could not transcribe."
 
 def login():
     st.title("Login")
@@ -698,10 +659,6 @@ def chat_page():
 
         user_query = ""
 
-        # 🎙 Voice Input
-        if st.button("🎙 Record Voice"):
-            audio_path = record_audio_to_file()
-            user_query = recognize_and_translate(audio_path, selected_lang)
 
         # Text input fallback
         typed_input = st.chat_input("💬 Ask a question about the PDF:")
