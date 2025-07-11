@@ -10,6 +10,15 @@ from deep_translator import GoogleTranslator
 from datetime import datetime
 import hashlib
 
+lang_code_map = {
+    "English": "en-US", "Hindi": "hi-IN", "Bengali": "bn-IN", "Telugu": "te-IN", "Marathi": "mr-IN",
+    "Tamil": "ta-IN", "Urdu": "ur-IN", "Gujarati": "gu-IN", "Malayalam": "ml-IN",
+    "Kannada": "kn-IN", "Odia": "or-IN", "Punjabi": "pa-IN", "Assamese": "as-IN",
+    "Maithili": "hi-IN", "Santali": "hi-IN", "Kashmiri": "hi-IN", "Konkani": "hi-IN",
+    "Sindhi": "hi-IN", "Nepali": "ne-NP", "Manipuri": "hi-IN", "Bodo": "hi-IN",
+    "Dogri": "hi-IN", "Sanskrit": "hi-IN", "Tulu": "hi-IN"
+}
+
 st.set_page_config(page_title="JuriFy", layout="wide")  
     
 def generate_pdf_hash(file_bytes):
