@@ -44,7 +44,7 @@ def load_chat_history(username, pdf_filename):
             return json.load(file)
     return []
 
-GENAI_API_KEY = "AIzaSyBoARe72yibzENsBqeyzuAejw1k0a6_wFg"
+GENAI_API_KEY = "PUT_YOUR_GENAI_API_KEY_HERE"
 
 if not GENAI_API_KEY:
     st.error("GENAI_API_KEY is missing. Please add your key directly in the code.")
@@ -55,11 +55,11 @@ genai.configure(api_key=GENAI_API_KEY.strip())
 
 # ✅ Direct MySQL Configuration (no .env)
 MYSQL_CONFIG = {
-    'user': 'Kshiti',
-    'password': 'Kshiti1105',
-    'host': 'localhost',
+    'user': 'PUT_YOUR_MYSQL_USERNAME_HERE',
+    'password': 'PUT_YOUR_MYSQL_PASSWORD_HERE',
+    'host': 'PUT_YOUR_MYSQL_HOST_HERE',
     'port': 3306,
-    'database': 'legal_chatbot'
+    'database': 'PUT_YOUR_DATABASE_NAME_HERE'
 }
 
 def get_db_connection():
