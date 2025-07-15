@@ -129,6 +129,28 @@ Follow these steps to use JuriFy effectively:
 
 ---
 
+## 🖼 UI Previews
+
+### Home Page
+![HomePage](Screenshots/HomePage.png)
+
+### Login Page
+![LoginPage](Screenshots/LoginPage.png)
+
+### RegisterPage
+![RegisterPage](Screenshots/RegisterPage.png)
+
+### SummaryPage
+![SummaryPage](Screenshots/SummaryPage.png)
+
+### TranslatedSummary
+![TranslatedSummary](Screenshots/TranslatedSummary.png)
+
+### Q&APage
+![Q&APage](Screenshots/Q&APage.png)
+
+---
+
 ## Limitations
 
 - The application accepts only judgments from Indian courts (Supreme Court, High Courts, District Courts).
