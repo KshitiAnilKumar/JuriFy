@@ -129,24 +129,24 @@ Follow these steps to use JuriFy effectively:
 
 ---
 
-## 🖼 UI Previews
+## UI Previews
 
-### Home Page
+## Home Page
 ![HomePage](Screenshots/HomePage.png)
 
-### Login Page
+## Login Page
 ![LoginPage](Screenshots/LoginPage.png)
 
-### RegisterPage
+## RegisterPage
 ![RegisterPage](Screenshots/RegisterPage.png)
 
-### SummaryPage
+## SummaryPage
 ![SummaryPage](Screenshots/SummaryPage.png)
 
-### TranslatedSummary
+## TranslatedSummary
 ![TranslatedSummary](Screenshots/TranslatedSummary.png)
 
-### Q&APage
+## Q&APage
 ![Q&APage](Screenshots/Q&APage.png)
 
 ---
