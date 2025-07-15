@@ -1,0 +1,9 @@
+streamlit==1.35.0
+google-generativeai==0.5.2
+PyMuPDF==1.23.22
+SpeechRecognition==3.10.1
+sounddevice==0.4.6
+numpy==1.26.4
+wavefile==1.6
+mysql-connector-python==8.4.0
+deep-translator==1.11.4
