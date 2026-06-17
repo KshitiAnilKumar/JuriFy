@@ -1,3 +1,5 @@
+# JuriFy – AI-Powered Legal Assistant
+
 **JuriFy** is a generative AI–powered legal assistant built with Gemini and Python that simplifies the way Indian court judgments are consumed, understood, and explored.
 
 Instead of reading through hundreds of pages of complex legal language, users can upload a single PDF from the **Supreme Court, High Court, or District Court of India** and receive a clean, concise summary along with critical insights — all within seconds.
