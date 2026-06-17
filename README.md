@@ -173,14 +173,13 @@ Follow these steps to use JuriFy effectively:
 
 **Created by:** [Kshiti Anil Kumar](https://www.linkedin.com/in/kshitianilkumar/)  
 **GitHub Repository:** [JuriFy](https://github.com/KshitiAnilKumar/JuriFy)
-
+**Demo Video:** [Watch Demo](https://drive.google.com/file/d/1IIL7BhwylbofdytAr3lsdLBI0wRLwP/view?usp=drive_link)
 ---
 
 ### Tools & Technologies Used
 
 - **Gemini 1.5 Flash** – for legal summarization and contextual Q&A  
 - **Deep Translator** – for real-time translation to Indian languages  
-- **ChatGPT & GitHub Copilot** – for guidance and development support  
 - **Streamlit** – for building the interactive web interface  
 - **PyMuPDF** – for extracting text from legal PDF documents  
 - **MySQL** – for storing user and session data  
