@@ -171,9 +171,8 @@ Follow these steps to use JuriFy effectively:
 
 ## Contact / Credits
 
-**Created by:** [Kshiti Anil Kumar](https://www.linkedin.com/in/kshitianilkumar/)  
-**GitHub Repository:** [JuriFy](https://github.com/KshitiAnilKumar/JuriFy)
-**Demo Video:** [Watch Demo](https://drive.google.com/file/d/1IIL7BhwylbofdytAr3lsdLBI0wRLwP/view?usp=drive_link)
+**Kshiti Anil Kumar**  
+[LinkedIn](https://www.linkedin.com/in/kshitianilkumar/) • [GitHub](https://github.com/KshitiAnilKumar/JuriFy) • [Demo Video](https://drive.google.com/file/d/1IJLZBhwylb0fdzytAr3lsdLIBJowRLWP/view?usp=drive_link)
 ---
 
 ### Tools & Technologies Used
