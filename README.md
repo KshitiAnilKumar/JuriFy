@@ -174,7 +174,6 @@ Follow these steps to use JuriFy effectively:
 - Created by: Kshiti Anil Kumar
 - LinkedIn: https://www.linkedin.com/in/kshitianilkumar/
 - GitHub: https://github.com/KshitiAnilKumar/JuriFy
-- Demo Video: [https://your-demo-link](https://drive.google.com/file/d/1IJLZBhwylb0fdzytAr3lsdLIBJowRLWP/view?usp=drive_link)
 
 ---
 
