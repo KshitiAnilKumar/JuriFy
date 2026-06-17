@@ -1,4 +1,4 @@
-# JuriFy – AI-Powered Legal Assistant
+<img width="872" height="645" alt="image" src="https://github.com/user-attachments/assets/b04a0525-cb1a-4ec5-b6e7-d58838a0b334" /># JuriFy – AI-Powered Legal Assistant
 
 **JuriFy** is a generative AI–powered legal assistant built with Gemini and Python that simplifies the way Indian court judgments are consumed, understood, and explored.
 
@@ -171,8 +171,11 @@ Follow these steps to use JuriFy effectively:
 
 ## Contact / Credits
 
-**Kshiti Anil Kumar**  
-[LinkedIn](https://www.linkedin.com/in/kshitianilkumar/) • [GitHub](https://github.com/KshitiAnilKumar/JuriFy) • [Demo Video](https://drive.google.com/file/d/1IJLZBhwylb0fdzytAr3lsdLIBJowRLWP/view?usp=drive_link)
+- Created by: Kshiti Anil Kumar
+- LinkedIn: https://www.linkedin.com/in/kshitianilkumar/
+- GitHub: https://github.com/KshitiAnilKumar/JuriFy
+- Demo Video: [https://your-demo-link](https://drive.google.com/file/d/1IJLZBhwylb0fdzytAr3lsdLIBJowRLWP/view?usp=drive_link)
+
 ---
 
 ### Tools & Technologies Used
